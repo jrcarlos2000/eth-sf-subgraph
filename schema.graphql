@@ -1,0 +1,7 @@
+
+type Transaction @entity {
+  id : ID!
+  StoreNullifier : BigInt!
+  ipfsURI : String!
+  buyerAddr : String!
+}
