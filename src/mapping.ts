@@ -14,6 +14,7 @@ export function handleTransactionSubmitted( event : transactionSubmitted) : void
   entity.StoreNullifier = event.params.identityCommitment;
   entity.ipfsURI = event.params.ipfs_uri;
   entity.buyerAddr = event.params.buyer_addr.toHex();
+  entity.detail = event.params.detail;
   entity.save();
 
   // let providerEntity = Provider.load(event.transaction.from.toHex());
@@ -26,5 +27,3 @@ export function handleTransactionSubmitted( event : transactionSubmitted) : void
 
 
 }
-
-

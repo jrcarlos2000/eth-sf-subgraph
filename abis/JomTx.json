@@ -45,6 +45,12 @@
         "internalType": "address",
         "name": "buyer_addr",
         "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "detail",
+        "type": "string"
       }
     ],
     "name": "transactionSubmitted",
@@ -91,6 +97,11 @@
         "type": "string"
       },
       {
+        "internalType": "string",
+        "name": "detail",
+        "type": "string"
+      },
+      {
         "internalType": "uint256",
         "name": "storeSignal",
         "type": "uint256"
@@ -121,6 +132,11 @@
       {
         "internalType": "string",
         "name": "ipfs_uri",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "detail",
         "type": "string"
       },
       {

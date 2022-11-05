@@ -4,4 +4,5 @@ type Transaction @entity {
   StoreNullifier : BigInt!
   ipfsURI : String!
   buyerAddr : String!
+  detail : String!
 }
